@@ -1,6 +1,6 @@
 <h2 class="c-project-heading--task">Colourful text</h2>
 --- task ---
-Choose another hex colour code and use it to create coloured text
+Choose a hex colour code for text.
 --- /task ---
 
 Add the code below to add some text.
@@ -27,12 +27,14 @@ hideturtle()
 --- /code ---
 </div>
 --- task ---
-
-**Test:** run the code and see the text. 
-
+**Test:** Run the code and check that the text appears.
 --- /task ---   
 
-Choose another colour from <a href="http://jumpto.cc/colour-picker" target="_blank">jumpto.cc/colour-picker</a>, copy the hex colour code and paste into the editor instead of `'pink'`.
+Choose a colour from <a href="http://jumpto.cc/colour-picker" target="_blank">jumpto.cc/colour-picker</a>.
+
+Copy the hex code that starts with `#`. 
+
+Replace `'pink'` with your hex code.
 
  <div class="c-project-code">
 --- code ---
@@ -54,26 +56,23 @@ style = ('Arial', 40, 'bold')
 write('HELLO', font=style, align='center')
 hideturtle()
 --- /code ---
-</div>
+
 --- task ---
-
-**Test:** run the code and see the text change to your chosen colour.
-
+**Test:** Run the code. Check that the text colour has changed.
 --- /task ---  
+</div>
 
 --- task ---
-
-Try different colours until you get two that you really like that look good together. 
-
+Try different colours until you find two that look good together.
 --- /task ---   
 
 <div class="c-project-callout c-project-callout--tip">
 
 ### Tip
-Try playing with the design of the text. 
+You can change the font and size.
 
-You don't have to use the 'Arial' font, you could try 'Verdana', 'Times' or 'Courier'.
+Try using 'Verdana', 'Times' or 'Courier'.
    
-`40` is the font size, you can try changing that too.  
+`40` is the font size, try changing that too.  
 </div>
 

@@ -1,16 +1,16 @@
 <h2 class="c-project-heading--task">Name the colours</h2>
 --- task ---
-Choose names for your colours by adding a dictionary
+Give your colours names using a dictionary.
 --- /task ---
 
 <div class="c-project-callout c-project-callout--tip">
 
 ### Why use a dictionary?
-Using hex colour codes is really flexible, but they are hard to remember. A dictionary can map memorable colour names to hex colour codes.
+Hex colour codes are flexible, but hard to remember.  
+A dictionary lets you match easy-to-remember names to colour codes.
 </div>
 
-Add the code below to create a dictionary for your colours. 
-
+Add the code below to create a dictionary for your colours.
 
 <div class="c-project-code">
 --- code ---
@@ -18,8 +18,8 @@ Add the code below to create a dictionary for your colours.
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 6
-line_highlights: 7-9
+line_number_start: 1
+line_highlights: 3-6
 ---
 colours = {  # Name of dictionary
   'verylime': '#A7E30E',  # colour name : hex code
@@ -28,13 +28,48 @@ colours = {  # Name of dictionary
 --- /code ---
 </div>
 --- task ---
-Try adding your own colours. You can add your own hex codes and invent names to match.
+Add your own colours.  
+Create new names and match them to hex colour codes.
 --- /task ---
 
 <div class="c-project-callout c-project-callout--tip">
 
 ### Tip
-
-You need a comma `,` between each item that you list in the dictionary. 
+Put a comma`,` between each item in the dictionary.
 </div>
+
+Test with your own colours. Your colour name goes inside square brackets '[]' after the name of the dictionary.
+--- /task ---
+
+Now update the rest of the code to use colours from the dictionary.
+
+<div class="c-project-code">
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: true
+line_number_start: 1
+line_highlights: 10, 12
+---
+from turtle import *
+
+colours = {  # Name of dictionary
+  'verylime': '#A7E30E',  # colour name : hex code
+  'reallyraspberry': '#BF3F7F'
+}
+
+screen = Screen()
+screen.setup(400, 400)
+screen.bgcolor(colours['verylime'])
+
+color(colours['reallyraspberry'])
+style = ('Arial', 40, 'bold')
+write('HELLO', font=style, align='center')
+hideturtle()
+--- /code ---
+</div>
+--- task ---
+**Test** the code. Check that the text still displays correctly with your named colours.
+--- /task ---
 

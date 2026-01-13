@@ -1,9 +1,9 @@
 <h2 class="c-project-heading--task">Choose a colour code</h2>
 --- task ---
-Choose your own hex colour codes
+Choose your own hex colour code.
 --- /task ---
 
-Python has named colours like red and white. You can also use colour codes, which let you choose any colour you want.
+PPython has some built-in colour names, like **red** and **white**. You can also use colour codes to choose any colour you want.
 
 Add the following code to set up a screen for your design.
 
@@ -20,17 +20,18 @@ from turtle import *
 
 screen = Screen()
 screen.setup(400, 400)
-screen.bgcolor('white')
+screen.bgcolor('blue')
 --- /code ---
-</div>    
+--- task ---   
+**Test:** Copy this code into main.py and run the code. This code uses a named colour, 'blue' for the background.
+--- /task ---
+</div>      
 
-Notice that you used a named colour: `'white'`.
+To choose a different colour, open <a href="http://jumpto.cc/colour-picker" target="_blank">jumpto.cc/colour-picker</a>.
 
-To pick your own colour, open <a href="http://jumpto.cc/colour-picker" target="_blank">jumpto.cc/colour-picker</a> and choose a colour you like. 
+Copy the hex code that starts with '#', for example '#A7E30E'. 
 
-Copy the hex code beginning with a '#', such as '#A7E30E'. 
-
-Now paste your hex code into the editor instead of `'white'`.
+Replace `'blue'` with your hex code.
 
 <div class="c-project-code">
 --- code ---
@@ -49,7 +50,7 @@ screen.bgcolor('#A7E30E')
 --- /code ---
 
 --- task ---   
-**Test:** run the code and see the backgorund colour is the one you picked.
+**Test:** Run the code. Check that the background colour has changed to your chosen colour.
 --- /task ---
 
 </div>    
