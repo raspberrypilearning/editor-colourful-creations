@@ -1,6 +1,7 @@
-## Introduction
-
-In this project you will create a dictionary of colours which maps hard to remember colour codes into friendly names.  
+<h2 class="c-project-heading--task">What you will make</h2>
+--- task ---
+Create a dictionary of colours which maps hard to remember colour codes into friendly names.  
+--- /task ---
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  

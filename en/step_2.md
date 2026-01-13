@@ -1,4 +1,8 @@
-## Using hex colour codes
+<h2 class="c-project-heading--task">Use hex codes</h2>
+--- task ---
+Choose your own hex colour codes
+--- /task ---
+## 
 
 Python turtle has predefined colours such as 'red' and 'white' but you can also use hex colour codes (you may have seen these in the HTML & CSS course.) 
 

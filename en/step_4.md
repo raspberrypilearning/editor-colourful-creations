@@ -1,3 +1,7 @@
+<h2 class="c-project-heading--task">Name the colours</h2>
+--- task ---
+Choose names for your colours add entries to the dictionary for them. 
+--- /task ---
 ## A Colour Dictionary
 
 Using hex colour codes is really flexible but they are hard to remember. 

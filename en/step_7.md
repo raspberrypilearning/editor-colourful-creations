@@ -1,3 +1,8 @@
+<h2 class="c-project-heading--task">Challenge: Create a poster</h2>
+--- task ---
+Create a 'palette' of colours that work well together for a particular theme
+--- /task ---
+
 --- challenge ---
 ## Challenge: Create a poster
 

@@ -1,3 +1,8 @@
+<h2 class="c-project-heading--task">Challenge: More colours</h2>
+--- task ---
+Add more colours to your dictionary and try them out.
+--- /task ---
+
 --- challenge ---
 ## Challenge: More colours!
 
