@@ -26,20 +26,22 @@ colours = {  # Name of dictionary
   'reallyraspberry': '#BF3F7F'
 }
 --- /code ---
-</div>
+
 --- task ---
 Add your own colours.  
 Create new names and match them to hex colour codes.
 --- /task ---
+</div>
 
 <div class="c-project-callout c-project-callout--tip">
 
 ### Tip
 Put a comma`,` between each item in the dictionary.
-</div>
+
 --- task ---
 Test with your own colours. Your colour name goes inside square brackets '[]' after the name of the dictionary.
 --- /task ---
+</div>
 
 Now update the rest of the code to use colours from the dictionary.
 

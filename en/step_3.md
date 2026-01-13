@@ -25,10 +25,11 @@ style = ('Arial', 40, 'bold')
 write('HELLO', font=style, align='center')
 hideturtle()
 --- /code ---
-</div>
+
 --- task ---
 **Test:** Run the code and check that the text appears.
 --- /task ---   
+</div>
 
 Choose a colour from <a href="http://jumpto.cc/colour-picker" target="_blank">jumpto.cc/colour-picker</a>.
 

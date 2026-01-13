@@ -25,7 +25,7 @@ language: python
 filename: main.py
 line_numbers: true
 line_number_start: 1
-line_highlights: 53
+line_highlights: 
 ---
 from turtle import *
 
