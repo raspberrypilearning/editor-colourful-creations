@@ -14,7 +14,7 @@ language: python
 filename: main.py
 line_numbers: true
 line_number_start: 17
-line_highlights:17-26
+line_highlights: 17-26
 ---
 penup()
 goto(0, 100)
