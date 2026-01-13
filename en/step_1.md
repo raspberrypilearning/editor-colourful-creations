@@ -1,6 +1,6 @@
 <h2 class="c-project-heading--task">What you will make</h2>
 --- task ---
-Create a dictionary of colours which maps hard to remember colour codes into friendly names.  
+Create your own poster graphics with a dictionary of colours that you have named.  
 --- /task ---
 
 <div class="c-project-output">
@@ -9,5 +9,5 @@ Create a dictionary of colours which maps hard to remember colour codes into fri
 </div>
 
 --- task ---
-Click the **Run** button to see an example
+Click **Run** to see an example of colourful graphics.
 --- /task ---

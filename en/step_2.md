@@ -1,11 +1,11 @@
-<h2 class="c-project-heading--task">Use hex codes</h2>
+<h2 class="c-project-heading--task">Choose a colour code</h2>
 --- task ---
 Choose your own hex colour codes
 --- /task ---
 
-Python turtle has named colours such as 'red' and 'white'. You can also use hex colour codes. 
+Python has named colours like red and white. You can also use colour codes, which let you choose any colour you want.
 
-Add the following code to set up turtle:
+Add the following code to set up a screen for your design.
 
 <div class="c-project-code">
 --- code ---
@@ -47,8 +47,9 @@ screen = Screen()
 screen.setup(400, 400)
 screen.bgcolor('#A7E30E')
 --- /code ---
-</div>    
+
 --- task ---   
 **Test:** run the code and see the backgorund colour is the one you picked.
 --- /task ---
 
+</div>    
