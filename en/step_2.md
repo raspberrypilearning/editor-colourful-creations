@@ -2,7 +2,6 @@
 --- task ---
 Choose your own hex colour codes
 --- /task ---
-## 
 
 Python turtle has predefined colours such as 'red' and 'white' but you can also use hex colour codes (you may have seen these in the HTML & CSS course.) 
 
@@ -75,6 +74,4 @@ screen.bgcolor('#A7E30E')
 You can use right-click and Paste or Ctrl-V to paste your hex code into the editor. 
 
 --- /task ---
-
---- task ---
 
