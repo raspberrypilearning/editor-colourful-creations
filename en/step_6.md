@@ -3,15 +3,10 @@
 Add more colours to your dictionary and try them out.
 --- /task ---
 
---- challenge ---
-## Challenge: More colours!
+Use <a href="http://jumpto.cc/colour-picker" target="_blank">jumpto.cc/colour-picker</a> to find more colours and give your colours awesome names. 
 
-Can you add more colours to your dictionary and try them out? Use <a href="http://jumpto.cc/colour-picker" target="_blank">jumpto.cc/colour-picker</a> to find more colours. 
-
-Don't forget to give your colours awesome names. 
-
-Here's some example code to remind you how to use the turtle:
-
+Here's some example code to make shapes with the turtle. 
+<div class="c-project-code">
 --- code ---
 ---
 language: python
@@ -31,5 +26,7 @@ color(colours['awesomeorange'])
 write('WORLD', font=style, align='center')
 hideturtle()
 --- /code ---
-
---- /challenge ---
+</div>
+--- task ---
+Adapt the code for your new colours.
+--- /task ---

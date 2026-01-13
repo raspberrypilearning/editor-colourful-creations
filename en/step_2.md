@@ -3,28 +3,18 @@
 Choose your own hex colour codes
 --- /task ---
 
-Python turtle has predefined colours such as 'red' and 'white' but you can also use hex colour codes (you may have seen these in the HTML & CSS course.) 
+Python turtle has named colours such as 'red' and 'white'. You can also use hex colour codes. 
 
---- task ---
+Add the following code to set up turtle:
 
-Open the [Colourful creations starter](https://editor.raspberrypi.org/en/projects/colourful-creations-starter){:target="_blank"} project. The code editor will open in another browser tab.
-
---- /task ---
-
-
-If you have a Raspberry Pi account, you can click on the **Save** button to save a copy to your **Projects**.
-
---- task ---
-
-Add the following set up code for using the turtle:
-
+<div class="c-project-code">
 --- code ---
 ---
 language: python
 filename: main.py
 line_numbers: true
 line_number_start: 1
-line_highlights: 
+line_highlights: 1-4
 ---
 from turtle import *
 
@@ -32,30 +22,17 @@ screen = Screen()
 screen.setup(400, 400)
 screen.bgcolor('white')
 --- /code ---
-    
+</div>    
 
 Notice that you used a named colour: `'white'`.
 
---- /task ---
+To pick your own colour, open <a href="http://jumpto.cc/colour-picker" target="_blank">jumpto.cc/colour-picker</a> and choose a colour you like. 
 
---- task ---
+Copy the hex code beginning with a '#', such as '#A7E30E'. 
 
-Turtle has a list of colour names that you can use, but sometimes you want to choose your own colours. Turtle also allows you to use hex colour codes. 
+Now paste your hex code into the editor instead of `'white'`.
 
-Open <a href="http://jumpto.cc/colour-picker" target="_blank">jumpto.cc/colour-picker</a> and choose a colour you like. Find its hex code beginning with a '#', such as '#A7E30E'. 
-
---- /task ---
-
---- task ---
-
-Copy the hex code, including the hash, by highlighting it and then right-clicking and choosing Copy, or using Ctrl-C. 
-
---- /task ---  
-
---- task ---
-
-Now change the line of code that sets the screen colour to use your colour. For example:
-
+<div class="c-project-code">
 --- code ---
 ---
 language: python
@@ -70,8 +47,8 @@ screen = Screen()
 screen.setup(400, 400)
 screen.bgcolor('#A7E30E')
 --- /code ---
-   
-You can use right-click and Paste or Ctrl-V to paste your hex code into the editor. 
-
+</div>    
+--- task ---   
+**Test:** run the code and see the backgorund colour is the one you picked.
 --- /task ---
 
