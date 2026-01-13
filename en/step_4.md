@@ -37,7 +37,7 @@ Create new names and match them to hex colour codes.
 ### Tip
 Put a comma`,` between each item in the dictionary.
 </div>
-
+--- task ---
 Test with your own colours. Your colour name goes inside square brackets '[]' after the name of the dictionary.
 --- /task ---
 
