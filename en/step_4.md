@@ -1,30 +1,56 @@
---- challenge ---
-## Challenge: More colours!
+## A Colour Dictionary
 
-Can you add more colours to your dictionary and try them out? Use <a href="http://jumpto.cc/colour-picker" target="_blank">jumpto.cc/colour-picker</a> to find more colours. 
+Using hex colour codes is really flexible but they are hard to remember. 
 
-Don't forget to give your colours awesome names. 
+As you probably already know, a dictionary allows you to look up a word, and see it’s meaning. In Python, a dictionary is even more flexible that that - it allows you to look up a value for any 'key' in the dictionary.
 
-Here's some example code to remind you how to use the turtle:
+Let's create a dictionary to map from human-friendly colour names (keys) to computer-friendly hex codes (values).
+
+--- task ---
+
+A dictionary is contained in curly brackets. 
+
+Create an empty dictionary called `colours`:
 
 --- code ---
 ---
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 17
-line_highlights: 
+line_number_start: 3
+line_highlights: 5-7
 ---
-penup()
-goto(0, 100)
-color(colours['reallyraspberry'])
-style = ('Arial', 40, 'bold')
-write('HELLO', font=style, align='center')
-right(90)
-forward(60)
-color(colours['awesomeorange'])
-write('WORLD', font=style, align='center')
-hideturtle()
+screen = Screen()
+screen.setup(400, 400)
+
+colours = {}
+
+screen.bgcolor('#A7E30E')
 --- /code ---
 
---- /challenge ---
+--- /task ---
+
+--- task ---
+
+Choose cool names for your colours and edit the `colours = ` line to add entries to the dictionary for them. 
+
+Here's an example colour dictionary:
+
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: true
+line_number_start: 6
+line_highlights: 7-9
+---
+colours = {
+  'verylime': '#A7E30E',
+  'reallyraspberry': '#BF3F7F'
+}
+--- /code ---
+   
+A colon `:` separates the key (colour name) from the value (hex code.) You need a comma `,` between each key:value pair in the dictionary. 
+
+--- /task ---   
+
