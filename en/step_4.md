@@ -4,11 +4,10 @@ Choose a hex colour code for text.
 --- /task ---
 
 --- task ---
-Add the code below to add some text.
-
 Choose a colour from <a href="http://jumpto.cc/colour-picker" target="_blank">jumpto.cc/colour-picker</a> and copy the hex code that starts with `#`. 
 
-Replace `'pink'` with your hex code.
+In the code below swap `'pink'` for your hex code.
+--- task ---
 
 <div class="c-project-code">
 --- code ---
