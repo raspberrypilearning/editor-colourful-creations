@@ -1,11 +1,21 @@
-<h2 class="c-project-heading--task">Challenge: More colours</h2>
+<h2 class="c-project-heading--task">Name the colours</h2>
 --- task ---
-Add more colours to your dictionary and test them.
+Add the code below to create **dictionary** that stores names for your own colours.
 --- /task ---
 
-Use <a href="http://jumpto.cc/colour-picker" target="_blank">jumpto.cc/colour-picker</a> to find more colours.
+<div class="c-project-callout c-project-callout--tip">
 
-Here is some example code that animates the text using the turtle.
+### Why use a dictionary?
+Hex colour codes are flexible, but hard to remember.  
+A dictionary lets you match easy-to-remember names to colour codes.
+</div>
+
+--- task ---
+Give your hex code colours names in the dictionary. 
+
+Then update the rest of the code to use the names inside square brackets `'[ ]'`.
+--- /task ---
+</div>
 
 <div class="c-project-code">
 --- code ---
@@ -13,27 +23,33 @@ Here is some example code that animates the text using the turtle.
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 17
-line_highlights: 17-26
+line_number_start: 1
+line_highlights: 3-6, 10, 12
 ---
-penup()
-goto(0, 100)
+from turtle import *
+
+colours = {  # Name of dictionary
+  'verylime': '#A7E30E',  # colour name : hex code
+  'reallyraspberry': '#BF3F7F'
+}
+
+screen = Screen()
+screen.setup(400, 400)
+screen.bgcolor(colours['verylime'])
+
 color(colours['reallyraspberry'])
 style = ('Arial', 40, 'bold')
 write('HELLO', font=style, align='center')
-right(90)
-forward(60)
-color(colours['awesomeorange'])
-write('WORLD', font=style, align='center')
 hideturtle()
 --- /code ---
-
---- task ---
-Add this to your project and change the code to use the new colours from your dictionary.
---- /task ---
 </div>
+--- task ---
+**Test** the code. Check your design still displays correctly with your named colours.
+--- /task ---
 
 <div class="c-project-callout c-project-callout--tip">
-<h3>Tip</h3>
-The turtle starts in the centre of the screen. `goto()` moves it to a new position, and `write()` shows text where the turtle is.
+
+### Tip
+Put a comma`,` between each item in the dictionary.
+
 </div>
