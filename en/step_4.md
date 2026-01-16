@@ -7,7 +7,7 @@ Choose a hex colour code for text.
 Choose a colour from <a href="http://jumpto.cc/colour-picker" target="_blank">jumpto.cc/colour-picker</a> and copy the hex code that starts with `#`. 
 
 In the code below swap `'pink'` for your hex code.
---- task ---
+--- /task ---
 
 <div class="c-project-code">
 --- code ---
