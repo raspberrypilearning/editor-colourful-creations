@@ -1,10 +1,14 @@
 <h2 class="c-project-heading--task">What you will make</h2>
 --- task ---
+
 Create your own poster graphics with a dictionary of colours that you have named.  
+
 --- /task ---
 
 --- task ---
+
 Click **Run** to see an example of colourful graphics.
+
 --- /task ---
 
 

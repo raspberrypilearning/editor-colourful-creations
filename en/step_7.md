@@ -1,6 +1,8 @@
 <h2 class="c-project-heading--task">Challenge: Create a poster</h2>
 --- task ---
+
 Create a colour palette for a new poster.
+
 --- /task ---
 
 <div class="c-project-callout c-project-callout--tip">
@@ -13,7 +15,9 @@ Choose a theme such as space, forest, sea, autumn, a sports team, or your own id
 </div>
   
 --- task ---
+
 This is a new, longer program. Delete your old code in <code>main.py</code> and replace it with the code below.
+
 --- /task ---
 
 Adapt this example for your own design.

@@ -1,12 +1,16 @@
 <h2 class="c-project-heading--task">Colourful text</h2>
 --- task ---
+
 Choose a hex colour code for text.
+
 --- /task ---
 
 --- task ---
+
 Choose a colour from <a href="http://jumpto.cc/colour-picker" target="_blank">jumpto.cc/colour-picker</a> and copy the hex code that starts with `#`. 
 
 In the code below swap `'pink'` for your hex code.
+
 --- /task ---
 
 <div class="c-project-code">
@@ -31,12 +35,16 @@ hideturtle()
 --- /code ---
 
 --- task ---
+
 **Test:** Run the code and check that the text appears.
+
 --- /task ---   
 </div>
 
 --- task ---
+
 Try different colours until you find text and background that look good together.
+
 --- /task ---   
 
 <div class="c-project-callout c-project-callout--tip">

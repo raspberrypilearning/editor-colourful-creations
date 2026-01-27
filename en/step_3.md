@@ -1,6 +1,8 @@
 <h2 class="c-project-heading--task">Choose a colour code</h2>
 --- task ---
+
 Choose your own hex colour code.
+
 --- /task ---
 
 To choose a different colour, open <a href="http://jumpto.cc/colour-picker" target="_blank">jumpto.cc/colour-picker</a>.
@@ -25,8 +27,10 @@ screen.setup(400, 400)
 screen.bgcolor('#A7E30E')
 --- /code ---
 
---- task ---   
+--- task ---
+
 **Test:** Run the code. Check that the background colour has changed to your chosen colour.
+
 --- /task ---
 
 </div>    

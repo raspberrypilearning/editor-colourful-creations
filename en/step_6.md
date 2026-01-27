@@ -1,6 +1,8 @@
 <h2 class="c-project-heading--task">Challenge: More colours</h2>
 --- task ---
+
 Add more colours to your dictionary and test them.
+
 --- /task ---
 
 Use <a href="http://jumpto.cc/colour-picker" target="_blank">jumpto.cc/colour-picker</a> to find more colours.
@@ -31,7 +33,9 @@ hideturtle()
 --- /code ---
 
 --- task ---
+
 Add this to your project and change the code to use the new colours from your dictionary.
+
 --- /task ---
 </div>
 

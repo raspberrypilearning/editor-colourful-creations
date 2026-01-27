@@ -1,6 +1,8 @@
 <h2 class="c-project-heading--task">Start your design</h2>
 --- task ---
+
 Set up a background for your design.
+
 --- /task ---
 
 Python has some built-in colour names, like **red** and **white**. You can also use hex codes to choose any colour you want.
@@ -22,7 +24,9 @@ screen = Screen()
 screen.setup(400, 400)
 screen.bgcolor('blue')
 --- /code ---
---- task ---   
+--- task ---
+
 **Test:** Copy this code into main.py and run the code. This code uses a named colour, 'blue' for the background.
+
 --- /task ---
-</div>      
+</div>

@@ -1,6 +1,8 @@
 <h2 class="c-project-heading--task">Name the colours</h2>
 --- task ---
+
 Add the code below to create **dictionary** that stores names for your own colours.
+
 --- /task ---
 
 <div class="c-project-callout c-project-callout--tip">
@@ -11,9 +13,11 @@ A dictionary lets you match easy-to-remember names to colour codes.
 </div>
 
 --- task ---
+
 Give your hex code colours names in the dictionary. 
 
 Then update the rest of the code to use the names inside square brackets `'[ ]'`.
+
 --- /task ---
 </div>
 
@@ -44,7 +48,9 @@ hideturtle()
 --- /code ---
 </div>
 --- task ---
+
 **Test** the code. Check your design still displays correctly with your named colours.
+
 --- /task ---
 
 <div class="c-project-callout c-project-callout--tip">
