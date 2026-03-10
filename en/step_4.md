@@ -33,13 +33,13 @@ style = ('Arial', 40, 'bold')
 write('HELLO', font=style, align='center')
 hideturtle()
 --- /code ---
+</div>
 
 --- task ---
 
 **Test:** Run the code and check that the text appears.
 
 --- /task ---   
-</div>
 
 --- task ---
 
@@ -56,4 +56,3 @@ Try using `'Verdana'`, `'Times'` or `'Courier'`.
    
 `40` is the font size, try changing that too.  
 </div>
-

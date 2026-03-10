@@ -31,13 +31,13 @@ color(colours['awesomeorange'])
 write('WORLD', font=style, align='center')
 hideturtle()
 --- /code ---
+</div>
 
 --- task ---
 
 Add this to your project and change the code to use the new colours from your dictionary.
 
 --- /task ---
-</div>
 
 <div class="c-project-callout c-project-callout--tip">
 <h3>Tip</h3>

@@ -32,5 +32,4 @@ screen.bgcolor('#A7E30E')
 **Test:** Run the code. Check that the background colour has changed to your chosen colour.
 
 --- /task ---
-
 </div>    

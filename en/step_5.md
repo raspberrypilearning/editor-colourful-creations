@@ -19,7 +19,6 @@ Give your hex code colours names in the dictionary.
 Then update the rest of the code to use the names inside square brackets `'[ ]'`.
 
 --- /task ---
-</div>
 
 <div class="c-project-code">
 --- code ---

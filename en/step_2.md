@@ -24,9 +24,9 @@ screen = Screen()
 screen.setup(400, 400)
 screen.bgcolor('blue')
 --- /code ---
+</div>
 --- task ---
 
 **Test:** Copy this code into main.py and run the code. This code uses a named colour, 'blue' for the background.
 
 --- /task ---
-</div>
