@@ -1,19 +1,28 @@
-<h2 class="c-project-heading--task">What you will make</h2>
---- task ---
+<h2 class="c-project-heading--task">Start your design</h2>
+### Step 1
 
-Create your own poster graphics with a dictionary of colours that you have named.  
+Set up a background for your design.
 
---- /task ---
+Python has some built-in colour names, like **red** and **white**. You can also use hex codes to choose any colour you want.
 
---- task ---
+Add the following code to set up a screen for your design.
 
-Click **Run** to see an example of colourful graphics.
+<div class="c-project-code">
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: true
+line_number_start: 1
+line_highlights: 1-4
+---
+from turtle import *
 
---- /task ---
-
-
-<div class="c-project-output">
-<iframe src="https://editor.raspberrypi.org/en/embed/viewer/editor-colourful-creations-complete" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
-</iframe>
+screen = Screen()
+screen.setup(400, 400)
+screen.bgcolor('blue')
+--- /code ---
 </div>
+### Step 2
 
+**Test:** Copy this code into main.py and run the code. This code uses a named colour, 'blue' for the background.

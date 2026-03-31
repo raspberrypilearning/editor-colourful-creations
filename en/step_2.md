@@ -1,13 +1,13 @@
-<h2 class="c-project-heading--task">Start your design</h2>
---- task ---
+<h2 class="c-project-heading--task">Choose a colour code</h2>
+### Step 1
 
-Set up a background for your design.
+Choose your own hex colour code.
 
---- /task ---
+To choose a different colour, open <a href="http://jumpto.cc/colour-picker" target="_blank">jumpto.cc/colour-picker</a>.
 
-Python has some built-in colour names, like **red** and **white**. You can also use hex codes to choose any colour you want.
+Copy the hex code that starts with '#', for example '#A7E30E'. 
 
-Add the following code to set up a screen for your design.
+Replace `'blue'` with your hex code.
 
 <div class="c-project-code">
 --- code ---
@@ -16,17 +16,17 @@ language: python
 filename: main.py
 line_numbers: true
 line_number_start: 1
-line_highlights: 1-4
+line_highlights: 5
 ---
 from turtle import *
 
 screen = Screen()
 screen.setup(400, 400)
-screen.bgcolor('blue')
+screen.bgcolor('#A7E30E')
 --- /code ---
+
 </div>
---- task ---
 
-**Test:** Copy this code into main.py and run the code. This code uses a named colour, 'blue' for the background.
+### Step 2
 
---- /task ---
+**Test:** Run the code. Check that the background colour has changed to your chosen colour.

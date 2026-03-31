@@ -16,16 +16,18 @@ hardware: ''
 software: python
 version: 3
 last_tested: 2017-01-01
+landing: true
 steps:
-- title: Step 1
-- title: Step 2
+- title: Start your design
+- title: Choose a colour code
   completion:
   - engaged
-- title: Step 3
-- title: Step 4
-- title: Step 5
-- title: Step 6
-- title: Step 7
+- title: Colourful text
+- title: Name the colours
   completion:
   - internal
-  - external 
+- title: Challenge: More colours
+  completion:
+  - external
+- title: Challenge: Create a poster
+  challenge: true
