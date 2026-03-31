@@ -1,17 +1,20 @@
-<h2 class="c-project-heading--task">Colourful text</h2>
---- task ---
+<h2 class="c-project-heading--task">Name the colours</h2>
+### Step 1
 
-Choose a hex colour code for text.
+Add the code below to create **dictionary** that stores names for your own colours.
 
---- /task ---
+<div class="c-project-callout c-project-callout--tip">
 
---- task ---
+### Why use a dictionary?
+Hex colour codes are flexible, but hard to remember.  
+A dictionary lets you match easy-to-remember names to colour codes.
+</div>
 
-Choose a colour from <a href="http://jumpto.cc/colour-picker" target="_blank">jumpto.cc/colour-picker</a> and copy the hex code that starts with `#`. 
+### Step 2
 
-In the code below swap `'pink'` for your hex code.
+Give your hex code colours names in the dictionary. 
 
---- /task ---
+Then update the rest of the code to use the names inside square brackets `'[ ]'`.
 
 <div class="c-project-code">
 --- code ---
@@ -20,39 +23,32 @@ language: python
 filename: main.py
 line_numbers: true
 line_number_start: 1
-line_highlights: 7-10
+line_highlights: 3-6, 10, 12
 ---
 from turtle import *
 
+colours = {  # Name of dictionary
+  'verylime': '#A7E30E',  # colour name : hex code
+  'reallyraspberry': '#BF3F7F'
+}
+
 screen = Screen()
 screen.setup(400, 400)
-screen.bgcolor('#A7E30E')
+screen.bgcolor(colours['verylime'])
 
-color('pink')
+color(colours['reallyraspberry'])
 style = ('Arial', 40, 'bold')
 write('HELLO', font=style, align='center')
 hideturtle()
 --- /code ---
 </div>
+### Step 3
 
---- task ---
-
-**Test:** Run the code and check that the text appears.
-
---- /task ---   
-
---- task ---
-
-Try different colours until you find text and background that look good together.
-
---- /task ---   
+**Test** the code. Check your design still displays correctly with your named colours.
 
 <div class="c-project-callout c-project-callout--tip">
 
 ### Tip
-You can change the font and size.
+Put a comma`,` between each item in the dictionary.
 
-Try using `'Verdana'`, `'Times'` or `'Courier'`.
-   
-`40` is the font size, try changing that too.  
 </div>
