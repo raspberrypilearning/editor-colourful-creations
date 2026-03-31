@@ -26,8 +26,8 @@ steps:
 - title: Name the colours
   completion:
   - internal
-- title: Challenge: More colours
+- title: "Challenge: More colours"
   completion:
   - external
-- title: Challenge: Create a poster
+- title: "Challenge: Create a poster"
   challenge: true
