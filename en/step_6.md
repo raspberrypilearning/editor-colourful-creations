@@ -97,4 +97,4 @@ write('the moon', font=('Verdana', 35, 'bold'), align='center')
 
 ## Now run your code
 
-Confirm the observable result.
+Run your code and check that your finished poster appears with the words and colours you chose.

@@ -59,4 +59,4 @@ Put a comma`,` between each item in the dictionary.
 
 ## Now run your code
 
-Confirm the observable result.
+Test the code and check that your design still appears using your named colours.
