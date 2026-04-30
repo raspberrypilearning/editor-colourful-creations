@@ -1,18 +1,21 @@
 <h2 class="c-project-heading--task">Challenge: Create a poster</h2>
-### Step 1
 
 Create a colour palette for a new poster.
 
-<div class="c-project-callout c-project-callout--tip">
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
+
+## Step 1
 
 ### Colour pallette
+
+<div class="c-project-callout c-project-callout--tip">
 
 A palette is a set of colours that work well together for one poster design.
 
 Choose a theme such as space, forest, sea, autumn, a sports team, or your own idea.
 </div>
-  
-### Step 2
+
+## Step 2
 
 This is a new, longer program. Delete your old code in <code>main.py</code> and replace it with the code below.
 
@@ -83,11 +86,15 @@ write('the moon', font=('Verdana', 35, 'bold'), align='center')
 --- /code ---
 </div>
 
+### Tips
 <div class="c-project-callout c-project-callout--tip">
 
-### Tips
 - You can also use other turtle commands that you know such as `forward`, `right`, `left`, `penup` and `pendown`. 
 - Maybe you could add a border to your poster?
 - Use `circle(50)` to draw a circle outline with radius 50.
 - `dot(100)` draws a filled in circle with diameter 100. 
 </div>
+
+## Now run your code
+
+Run your code and check that your finished poster appears with the words and colours you chose.

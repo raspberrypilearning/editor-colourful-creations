@@ -1,16 +1,19 @@
 <h2 class="c-project-heading--task">Name the colours</h2>
-### Step 1
 
 Add the code below to create **dictionary** that stores names for your own colours.
 
-<div class="c-project-callout c-project-callout--tip">
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
+
+## Step 1
 
 ### Why use a dictionary?
+<div class="c-project-callout c-project-callout--tip">
+
 Hex colour codes are flexible, but hard to remember.  
 A dictionary lets you match easy-to-remember names to colour codes.
 </div>
 
-### Step 2
+## Step 2
 
 Give your hex code colours names in the dictionary. 
 
@@ -42,13 +45,18 @@ write('HELLO', font=style, align='center')
 hideturtle()
 --- /code ---
 </div>
-### Step 3
+
+## Step 3
 
 **Test** the code. Check your design still displays correctly with your named colours.
 
+### Tip
 <div class="c-project-callout c-project-callout--tip">
 
-### Tip
 Put a comma`,` between each item in the dictionary.
 
 </div>
+
+## Now run your code
+
+Test the code and check that your design still appears using your named colours.
