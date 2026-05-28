@@ -2,8 +2,6 @@
 
 Set up a background for your design.
 
-<h2 class="c-project-heading--explainer">Follow these instructions</h2>
-
 Python has some built-in colour names, like **red** and **white**. You can also use hex codes to choose any colour you want.
 
 Add the following code to set up a screen for your design.

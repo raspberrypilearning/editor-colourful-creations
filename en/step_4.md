@@ -2,8 +2,6 @@
 
 Add the code below to create **dictionary** that stores names for your own colours.
 
-<h2 class="c-project-heading--explainer">Follow these instructions</h2>
-
 ## Step 1
 
 ### Why use a dictionary?

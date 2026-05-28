@@ -2,8 +2,6 @@
 
 Choose a hex colour code for text.
 
-<h2 class="c-project-heading--explainer">Follow these instructions</h2>
-
 Choose a colour from <a href="http://jumpto.cc/colour-picker" target="_blank">jumpto.cc/colour-picker</a> and copy the hex code that starts with `#`. 
 
 In the code below swap `'pink'` for your hex code.
