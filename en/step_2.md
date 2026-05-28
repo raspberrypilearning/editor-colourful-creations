@@ -2,8 +2,6 @@
 
 Choose your own hex colour code.
 
-<h2 class="c-project-heading--explainer">Follow these instructions</h2>
-
 To choose a different colour, open <a href="http://jumpto.cc/colour-picker" target="_blank">jumpto.cc/colour-picker</a>.
 
 Copy the hex code that starts with '#', for example '#A7E30E'. 
