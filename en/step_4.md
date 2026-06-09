@@ -1,6 +1,6 @@
 <h2 class="c-project-heading--task">Name the colours</h2>
 
-Add the code below to create **dictionary** that stores names for your own colours.
+Add the code below to create a **dictionary** that stores names for your own colours.
 
 ## Step 1
 
