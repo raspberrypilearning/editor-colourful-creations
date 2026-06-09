@@ -51,7 +51,7 @@ hideturtle()
 ### Tip
 <div class="c-project-callout c-project-callout--tip">
 
-Put a comma`,` between each item in the dictionary.
+Put a comma `,` between each item in the dictionary.
 
 </div>
 
