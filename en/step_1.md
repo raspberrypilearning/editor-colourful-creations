@@ -25,4 +25,4 @@ screen.bgcolor('blue')
 
 ## Now run your code
 
-Copy this code into main.py and run the code. This code uses a named colour, 'blue' for the background.
+Copy this code into main.py and run the code. This code uses a named colour, 'blue', for the background.
