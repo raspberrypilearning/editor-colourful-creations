@@ -1,31 +1,18 @@
-<h2 class="c-project-heading--task">Name the colours</h2>
+## Name the colours
 
 Add the code below to create a **dictionary** that stores names for your own colours.
 
-## Step 1
+> [!INFO]
+> ## Why use a dictionary?
+>
+> Hex colour codes are flexible, but hard to remember.
+> A dictionary lets you match easy-to-remember names to colour codes.
 
-### Why use a dictionary?
-<div class="c-project-callout c-project-callout--tip">
-
-Hex colour codes are flexible, but hard to remember.  
-A dictionary lets you match easy-to-remember names to colour codes.
-</div>
-
-## Step 2
-
-Give your hex code colours names in the dictionary. 
+Give your hex code colours names in the dictionary.
 
 Then update the rest of the code to use the names inside square brackets `'[ ]'`.
 
-<div class="c-project-code">
---- code ---
----
-language: python
-filename: main.py
-line_numbers: true
-line_number_start: 1
-line_highlights: 3-6, 10, 12
----
+```python filename="main.py" line_numbers="true" line_number_start="1" line_highlights="3-6,10,12"
 from turtle import *
 
 colours = {  # Name of dictionary
@@ -41,19 +28,11 @@ color(colours['reallyraspberry'])
 style = ('Arial', 40, 'bold')
 write('HELLO', font=style, align='center')
 hideturtle()
---- /code ---
-</div>
+```
 
-## Step 3
-
-**Test** the code. Check your design still displays correctly with your named colours.
-
-### Tip
-<div class="c-project-callout c-project-callout--tip">
-
-Put a comma `,` between each item in the dictionary.
-
-</div>
+> [!TIP]
+>
+> Put a comma `,` between each item in the dictionary.
 
 ## Now run your code
 
