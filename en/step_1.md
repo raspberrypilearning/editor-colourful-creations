@@ -1,4 +1,4 @@
-<h2 class="c-project-heading--task">Start your design</h2>
+## Start your design
 
 Set up a background for your design.
 
@@ -6,22 +6,13 @@ Python has some built-in colour names, like **red** and **white**. You can also 
 
 Add the following code to set up a screen for your design.
 
-<div class="c-project-code">
---- code ---
----
-language: python
-filename: main.py
-line_numbers: true
-line_number_start: 1
-line_highlights: 1-4
----
+```python filename="main.py" line_numbers="true" line_number_start="1" line_highlights="1-4"
 from turtle import *
 
 screen = Screen()
 screen.setup(400, 400)
 screen.bgcolor('blue')
---- /code ---
-</div>
+```
 
 ## Now run your code
 
